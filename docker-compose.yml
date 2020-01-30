@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  student:
+    build: .
+    volumes:
+      - .:/app
